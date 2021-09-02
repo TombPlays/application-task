@@ -1,0 +1,23 @@
+.new-user-form {
+    background-color:#bfa7a7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+select, input, label, button {
+    height:30px;
+}
+select, input {
+    float:right;
+    width: 200px;
+}
+label {
+    margin-bottom:10px;
+}
+button, select {
+    cursor: pointer;
+}
+button:hover {
+    background-color:navy;
+    color: #fff;
+}
